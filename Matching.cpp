@@ -208,10 +208,12 @@ int Pareja (char** NewA, char** NewB, char** pairs, int palabras){
 			pair=1;
 		}else{
 			pair=0;
+
+			
 		}
 	}else if (esta==false){
 		pair=0;
 	}
 	return pair;
-	
+
 }
