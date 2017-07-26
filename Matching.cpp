@@ -60,7 +60,7 @@ int main(int argc,char* argv[]){
 				}else if(!(resp[0]=='s'||resp[0]=='S'||resp[0]=='n'||resp[0]=='N')){
 					cout<<"Opcion no valida"<<endl;
 					salir=true;
-				} 
+				}
 			}while(salir==true);
 		}while (resp[0]=='s'||resp[0]=='S'||iterador>numPalabrasA+numPalabrasB);
 
@@ -102,7 +102,7 @@ int main(int argc,char* argv[]){
 				}else if(!(resp[0]=='s'||resp[0]=='S'||resp[0]=='n'||resp[0]=='N')){
 					cout<<"Opcion no valida"<<endl;
 					salir=true;
-				} 
+				}
 			}while(salir==true);
 		}while (resp[0]=='s'||resp[0]=='S');
 
@@ -121,7 +121,7 @@ int main(int argc,char* argv[]){
 			}else if(!(resp[0]=='s'||resp[0]=='S'||resp[0]=='n'||resp[0]=='N')){
 				cout<<"Opcion no valida"<<endl;
 				salida=true;
-			} 
+			}
 		}while(salida==true);
 
 	}while (resp[0]=='s'||resp[0]=='S');
@@ -213,5 +213,5 @@ int Pareja (char** NewA, char** NewB, char** pairs, int palabras){
 		pair=0;
 	}
 	return pair;
+	
 }
-
